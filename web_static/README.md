@@ -1,5 +1,3 @@
-# AirBnB clone - Web static
+# This Directory contins the tasks for 0x01. AirBnB clone - Web static
 
-# Continuation of 0x00. AirBnB clone - The console
-
-AirBnB_clone project by Alvin Wachira
+##  The implementation and continuation for the AirBnB clone project using HTML CSS for Front-end
