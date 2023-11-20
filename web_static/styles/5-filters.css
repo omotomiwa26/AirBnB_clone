@@ -1,4 +1,3 @@
-/* search bar */
 div.container {
     max-width: 1000px;
     margin: 30px auto;
@@ -23,9 +22,8 @@ section.filters button {
     margin: 11px 30px;
 }
 section.filters button:hover {
-    opacity: .9;
+    opacity: 90%;
 }
-/* location and amenities part of search bar */
 .locations,
 .amenities {
     height: 100%;
