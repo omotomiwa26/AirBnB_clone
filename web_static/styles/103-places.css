@@ -1,5 +1,3 @@
-
-/* flexbox - places */
 .places {
   display: flex;
   flex-flow: row wrap;
@@ -23,8 +21,6 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
-    /* align-content: flex-start;
-    align-items: flex-start; */
 }
 .places article .places_top{
   display: flex;
@@ -53,8 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-      
+    flex: 1;  
   }
   .places article .information {
     height: 100%;
@@ -73,7 +68,6 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    /* background-position: 50% 5px; */
     background-repeat: no-repeat;
   }
   .max_guest {
@@ -92,7 +86,6 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-/* Amenity and Reviews */
 .places article .amenities,
 .places article .reviews{
   position: relative;
@@ -101,7 +94,6 @@
 	margin: 40px 0 40px;
 	width: 100%;
 	padding: 0;
-    
 }
 .places article .amenities h2,
 .places article .reviews h2{
@@ -119,10 +111,8 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-
  .places article .amenities ul li,
 .places article .amenities ul li{
-  /* height: 40px; */
 	line-height: 30px;
 	padding-left: 50px;
 }
@@ -133,7 +123,6 @@
 	background-repeat: no-repeat;
 	list-style-type: none;
 }
-
 .places article .reviews ul li h3{
 	font-size: 14px;
   -webkit-box-sizing: border-box;
@@ -145,22 +134,16 @@
 }
 .icon_wifi{
 	background-image: url("../images/icon_wifi.png");
-  
 }
 .icon_tv{
 	background-image: url("../images/icon_tv.png");
-  
 }
 .icon_pets{
 	background-image: url("../images/icon_pets.png");
-  
 }
-
 footer {
    position: relative;
  }
-
- /* Align header 1 as screen gets smaller */
 @media only screen and (max-width: 1000px) {
   .places h1 {
     width: 90%;
